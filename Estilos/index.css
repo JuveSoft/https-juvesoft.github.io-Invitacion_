@@ -1,0 +1,184 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aquamarine; 
+    height: auto;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+}
+
+.contenedor {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 100rem;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(172, 255, 227);
+    display: block;
+    align-items: center;
+    margin-top: 0;
+    border-radius: 1rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+   
+    align-items: center;
+}
+
+.rojo {
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.btn-musica {
+    width: 20rem;
+    height: 5rem;
+    margin: .5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: green;
+    color: white;
+    font-size: 2rem;
+}
+
+.invitado {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.galeria-texto h2 {
+    position: absolute;
+    display: block;
+    margin: auto;
+    font-size: 2.5rem;
+    background-color: rgba(20, 0, 0, 0.1);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: background 0.3 ease;
+}
+
+
+ .foto{
+    display: block;
+     width: 100%; 
+    max-width: 220rem;
+    margin: auto;
+    overflow: hidden;
+} 
+
+ .foto img {
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    /* max-width: 80rem; */
+     height: auto;      
+} 
+
+.foto iframe {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.fotoUnica {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.fotoUnica img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 220rem;
+    height: auto;
+}
+
+/* --------- */
+
+.footer {
+
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer p {
+    font-size: 1.8rem;
+    color: rgb(252, 248, 12);
+    padding: 1rem;
+}
+.footer h3{
+    padding-top: 1rem;
+}
+
+
+

@@ -1,0 +1,89 @@
+section {
+    display: block;
+    /* margin-bottom: 2rem; */
+    width: 100%;
+}
+
+.seccion-tel {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 1rem;
+}
+
+.tel {
+    margin-bottom: 2rem;
+}
+
+.tel img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: auto;
+}
+
+
+
+.text-imagen{
+    width: 80%;
+    max-width: 50rem;
+    box-sizing: border-box;
+    /*border: 0.2rem solid #f50909;  /*Borde verde  */
+    padding: .3rem; /* Espacio interno */
+    margin: 1rem auto; /* Espacio externo */    
+    box-shadow: 2px 2px 12px rgba(156, 219, 73, 0.842); /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */    
+}
+ .text-imagen #countdown{
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.795);
+    color: white;
+    border-radius: 1rem;
+}
+
+.anexos{
+    display: flez;
+    margin: 2rem auto;
+}
+.text-imagen p{    
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+   justify-content:center;
+   padding: 0.5rem;
+   max-width: 90%;
+   text-align:justify;
+   font-size: 1.8rem;   
+}
+
+.textoImagen p{
+     display: block; 
+    max-width: 50rem;
+    margin: auto;
+    padding: 2rem;   
+    /* justify-content: center;
+    text-align: center;  */
+}
+.email p {        
+    display: flex; 
+    margin: auto;    
+    padding: 2rem;
+    color: BLACK;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;    
+    justify-content: center;
+}
+span{
+    display: flex;
+    font-weight:bold;
+    font-size: 2.5rem;
+    color: green;
+    justify-content: center;  
+}
+
